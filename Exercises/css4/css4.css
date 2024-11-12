@@ -1,0 +1,43 @@
+.div{
+    width: 250px;
+    border: 1px solid black;
+    }
+.child{
+    background-color: green;
+}
+#container{
+    padding: 15px;
+    background-color: chocolate;
+    color: white;
+    
+
+}
+#target{
+    position: fixed;
+    left: 50px;
+    top: 15px;
+    z-index: -1; /*capas*/
+    visibility: hidden; 
+}
+#next{
+    display: none;/*borrar*/
+    position: absolute; /*relativa a la pagina entera*/
+}
+#previous{
+    position: relative; /*relativa al contenedor padre*/
+    left: 50px;
+    top: -2px;
+    
+}
+.fleft{
+    float: left;
+
+}
+.fright{
+    clear: both;
+
+}
+.clear{
+    clear: right;
+
+}

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta  charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de información</title>
+    <link rel="stylesheet" href="/Exercises/web_html/tabla de contenidos.css">
+    
+</head>
+<body>
+        <table>
+            <thead>
+                
+                <br/>
+                <th>Tabla de IMC</th>
+                <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: #ffffff;
+                        margin: 1;
+                        padding: 20px;
+                    }
+                
+                    table {
+                        border-collapse: collapse;
+                        font-size: 14px;
+                        text-align: center;
+                    }
+                
+                    th,
+                    td {
+                        padding: 8px;
+                        border: 1px solid rgb(189, 189, 189);
+                        color: white;
+                    }
+                
+                    th {
+                        background-color: rgb(189, 189, 189);
+                        color: white;
+                    }
+                
+                    .imc-label {
+                        background-color: rgb(0, 0, 0);
+                        color: rgb(255, 238, 0);
+                        font-weight: bold;
+                    }
+                
+                    .red {
+                        background-color: #d9534f;
+                    }
+                
+                    .yellow {
+                        background-color: #ffc107;
+                        color: black;
+                    }
+                
+                    .green {
+                        background-color: #5cb85c;
+                    }
+                
+                    .blue {
+                        background-color: #5bc0de;
+                    }
+                </style>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="imc-label" rowspan="2" colspan="2">IMC</th> 
+                    <th class="imc-label"colspan="11">ALTURA (Metros)</th> 
+                </tr>
+
+                <tr>
+                    <th class="imc-label">1.50</th>
+                    <th class="imc-label">1.55</th>
+                    <th class="imc-label">1.60</th>
+                    <th class="imc-label">1.65</th>
+                    <th class="imc-label">1.70</th>
+                    <th class="imc-label">1.75</th>
+                    <th class="imc-label">1.80</th>
+                    <th class="imc-label">1.85</th>
+                    <th class="imc-label">1.90</th>
+                    <th class="imc-label">1.95</th>
+                    <th class="imc-label">2.00</th>
+                </tr>
+                
+                <tr>
+                    <th class="imc-label" rowspan="15">PESO <br> (Kg)</th> 
+                    <td class="imc-label">110</td>
+                    <td class="red">49</td>
+                    <td class="red">45</td>
+                    <td class="red">43</td>
+                    <td class="red">40</td>
+                    <td class="red">38</td>
+                    <td class="red">36</td>
+                    <td class="red">34</td>
+                    <td class="red">32</td>
+                    <td class="red">30</td>
+                    <td class="red">29</td>
+                    <td class="red">27</td>
+                </tr>
+
+                <tr>
+                    <td class="imc-label">105</td>
+                    <td class="red">47</td>
+                    <td class="red">43</td>
+                    <td class="red">41</td>
+                    <td class="red">38</td>
+                    <td class="red">36</td>
+                    <td class="red">34</td>
+                    <td class="red">32</td>
+                    <td class="red">30</td>
+                    <td class="red">28</td>
+                    <td class="red">27</td>
+                    <td class="yellow">25</td>
+                </tr>
+
+                <tr>
+                    <td class="imc-label">100</td>
+                    <td class="red">45</td>
+                    <td class="red">41</td>
+                    <td class="red">39</td>
+                    <td class="red">36</td>
+                    <td class="red">34</td>
+                    <td class="red">32</td>
+                    <td class="red">30</td>
+                    <td class="red">28</td>
+                    <td class="red">27</td>
+                    <td class="yellow">25</td>
+                    <td class="yellow">24</td>
+                </tr>
+
+                <tr>
+                    <td class="imc-label">95</td>
+                    <td class="red">43</td>
+                    <td class="red">39</td>
+                    <td class="red">37</td>
+                    <td class="red">34</td>
+                    <td class="red">32</td>
+                    <td class="red">30</td>
+                    <td class="red">29</td>
+                    <td class="red">27</td>
+                    <td class="yellow">26</td>
+                    <td class="yellow">24</td>
+                    <td class="green">23</td>
+                </tr>
+
+                <tr>
+                    <td class="imc-label">90</td>
+                    <td class="red">41</td>
+                    <td class="red">37</td>
+                    <td class="red">35</td>
+                    <td class="red">32</td>
+                    <td class="red">30</td>
+                    <td class="red">29</td>
+                    <td class="red">27</td>
+                    <td class="yellow">26</td>
+                    <td class="yellow">24</td>
+                    <td class="green">23</td>
+                    <td class="green">22</td>
+                </tr>
+
+                <tr>
+                    <td class="imc-label">85</td>
+                    <td class="red">39</td>
+                    <td class="red">35</td>
+                    <td class="red">33</td>
+                    <td class="red">30</td>
+                    <td class="red">29</td>
+                    <td class="red">27</td>
+                    <td class="yellow">26</td>
+                    <td class="yellow">24</td>
+                    <td class="green">23</td>
+                    <td class="green">22</td>
+                    <td class="yellow">21</td>
+                </tr>
+
+                <tr>
+                    <td class="imc-label">80</td>
+                    <td class="red">37</td>
+                    <td class="red">33</td>
+                    <td class="red">31</td>
+                    <td class="red">29</td>
+                    <td class="red">27</td>
+                    <td class="yellow">26</td>
+                    <td class="yellow">24</td>
+                    <td class="green">23</td>
+                    <td class="green">22</td>
+                    <td class="yellow">21</td>
+                    <td class="yellow">20</td>
+                </tr>
+
+                <tr>
+                    <td class="imc-label">75</td>
+                    <td class="red">35</td>
+                    <td class="red">32</td>
+                    <td class="red">30</td>
+                    <td class="red">27</td>
+                    <td class="yellow">26</td>
+                    <td class="yellow">24</td>
+                    <td class="green">23</td>
+                    <td class="green">22</td>
+                    <td class="yellow">20</td>
+                    <td class="yellow">19</td>
+                    <td class="blue">18</td>
+                </tr>
+
+                <tr>
+                    <td class="imc-label">70</td>
+                    <td class="red">33</td>
+                    <td class="red">29</td>
+                    <td class="red">28</td>
+                    <td class="yellow">26</td>
+                    <td class="yellow">24</td>
+                    <td class="green">23</td>
+                    <td class="green">21</td>
+                    <td class="yellow">20</td>
+                    <td class="yellow">19</td>
+                    <td class="blue">18</td>
+                    <td class="blue">17</td>
+                </tr>
+
+                <tr>
+                    <td class="imc-label">65</td>
+                    <td class="red">29</td>
+                    <td class="red">27</td>
+                    <td class="yellow">26</td>
+                    <td class="yellow">24</td>
+                    <td class="green">23</td>
+                    <td class="green">21</td>
+                    <td class="yellow">20</td>
+                    <td class="yellow">19</td>
+                    <td class="blue">18</td>
+                    <td class="blue">17</td>
+                    <td class="blue">16</td>
+                </tr>
+
+                <tr>
+                    <td class="imc-label">60</td>
+                    <td class="red">27</td>
+                    <td class="yellow">26</td>
+                    <td class="yellow">24</td>
+                    <td class="green">23</td>
+                    <td class="green">21</td>
+                    <td class="yellow">20</td>
+                    <td class="yellow">19</td>
+                    <td class="blue">18</td>
+                    <td class="blue">17</td>
+                    <td class="blue">16</td>
+                    <td class="blue">15</td>
+                </tr>
+
+                <tr>
+                    <td class="imc-label">55</td>
+                    <td class="yellow">25</td>
+                    <td class="yellow">24</td>
+                    <td class="green">23</td>
+                    <td class="green">21</td>
+                    <td class="yellow">20</td>
+                    <td class="yellow">19</td>
+                    <td class="blue">18</td>
+                    <td class="blue">17</td>
+                    <td class="blue">16</td>
+                    <td class="blue">15</td>
+                    <td class="blue">14</td>
+                </tr>
+
+                <tr>
+                    <td class="imc-label">50</td>
+                    <td class="yellow">23</td>
+                    <td class="green">22</td>
+                    <td class="green">21</td>
+                    <td class="yellow">20</td>
+                    <td class="yellow">19</td>
+                    <td class="blue">18</td>
+                    <td class="blue">17</td>
+                    <td class="blue">16</td>
+                    <td class="blue">15</td>
+                    <td class="blue">14</td>
+                    <td class="blue">13</td>
+                </tr>
+                
+                <tr>
+                    <td class="imc-label">45</td>
+                    <td class="green">20</td>
+                    <td class="green">19</td>
+                    <td class="yellow">18</td>
+                    <td class="yellow">17</td>
+                    <td class="blue">16</td>
+                    <td class="blue">15</td>
+                    <td class="blue">14</td>
+                    <td class="blue">13</td>
+                    <td class="blue">12</td>
+                    <td class="blue">12</td>
+                    <td class="blue">12</td>
+                </tr>
+            </tbody>
+        </table>
+    <nav>
+        <a href="http://127.0.0.1:5500/Exercises/web_html/">Menu principal</a>
+        <a href="http://127.0.0.1:5500/Exercises/web_html/informacio.html">Información</a>
+        <a href="http://127.0.0.1:5500/Exercises/web_html/tabla%20de%20información.html">Tabla de información</a>
+        <a href="http://127.0.0.1:5500/Exercises/web_html/formulario%20de%20entrada.html">Formulario de entrada</a>
+    </nav>
+</body>
+
+</html>

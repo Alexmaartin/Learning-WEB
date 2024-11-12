@@ -1,0 +1,14 @@
+* {
+    border: 1px black;
+    display: grid;
+    place-items: center;
+}
+
+  body {
+    display: grid;
+    place-items: center;
+    background-image: url("https://imag.bonviveur.com/interior-del-bizcocho-de-chocolate.jpg");
+  }
+  img{
+    float: right;
+  }

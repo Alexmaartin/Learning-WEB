@@ -1,0 +1,36 @@
+* {
+    border: 1px solid black;
+}
+
+h1{
+    color: red;
+}
+
+.img{
+    margin: 5px;
+    padding: 5px;
+    width: 150px;
+}
+
+#header{
+    color: green;
+}
+
+img.img{
+    padding: 50px;
+}
+
+ol > li a{
+    font-size: 1.5em;
+}
+
+p .img{
+    background-color: blue;
+}
+h1 + p {
+    color: yellow;
+}
+
+h2, li {
+    border: 2px dashed red;
+}

@@ -1,0 +1,18 @@
+.container{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    /*justify-content: space-around;*/
+    /*flex-flow: row wrap;*/
+    /*gap: 15px 45px;*/
+    /* flex-grow ---- lo que ocupa en la fila*/
+    height: 500px;
+    align-items: flex-start;  
+}
+.child{
+    border: 1px dashed black;
+    width: 200px;
+}

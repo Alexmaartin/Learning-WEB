@@ -1,0 +1,81 @@
+header {
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #C8AE7E;
+}
+
+nav ul {
+    text-align: center;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+section {
+    padding: 1%;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#favoritos {
+    width: 100%;
+    background-color: #fafdf3;
+}
+
+#hombres {
+    width: 100%;
+    background-color: #F5F5DD;
+}
+
+#mujeres {
+    width: 100%;
+    background-color: #EAE3C9;
+}
+
+#ninos {
+    width: 100%;
+    background-color: #D2BD96;
+}
+
+.product {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    display: inline-block;
+    flex-direction: row;
+    align-items: flex-end;
+    background-color: #fafdf3;
+    justify-content: center;
+    width: 180px;
+}
+
+body {
+    width: 100%;
+    justify-content: center;
+    place-items: center;
+    background-color: #C8AE7E;
+
+}
+
+img {
+    width: 98%;
+}
+
+footer {
+    text-align: center;
+}
